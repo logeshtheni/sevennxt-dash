@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <base href="/sevennxt-dash/">
   <meta charset="UTF-8">
@@ -9,13 +10,50 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="sevenxt">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <title>sevenxt</title>
   <link rel="manifest" href="manifest.json">
   <!-- Razorpay Web SDK -->
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script>
+    (function () {
+      // 1. Restore the last known route before Flutter starts
+      const lastRoute = localStorage.getItem('flutter_persistence_route');
+      const currentHash = window.location.hash;
+
+      // Only restore if we are at the root (or default) and have a saved route
+      if (lastRoute && (!currentHash || currentHash === '#/' || currentHash === '#') && lastRoute !== currentHash) {
+        console.log('Restoring last route:', lastRoute);
+        window.location.hash = lastRoute;
+      }
+
+      // 2. Monkey-patch History API to capture future route changes
+      const pushState = window.history.pushState;
+      window.history.pushState = function () {
+        pushState.apply(window.history, arguments);
+        saveCurrentRoute();
+      };
+
+      const replaceState = window.history.replaceState;
+      window.history.replaceState = function () {
+        replaceState.apply(window.history, arguments);
+        saveCurrentRoute();
+      };
+
+      window.addEventListener('hashchange', saveCurrentRoute);
+
+      function saveCurrentRoute() {
+        const route = window.location.hash;
+        if (route && route !== '#/' && route !== '#') {
+          localStorage.setItem('flutter_persistence_route', route);
+        }
+      }
+    })();
+  </script>
 </head>
+
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
+
 </html>
