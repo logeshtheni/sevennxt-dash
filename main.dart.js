@@ -31214,7 +31214,7 @@ Eg(){var s=0,r=A.r(t.Li),q,p,o,n,m,l
 var $async$Eg=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:n=A
 m=A
-l="http://192.168.29.146:8000/notifications?userType="
+l="https://sevenxt.in/api/notifications?userType="
 s=4
 return A.j(A.yg(),$async$Eg)
 case 4:m=m.cn(l+b,0,null)
@@ -31248,7 +31248,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$hp,r)},
 jp(a,b){var s=0,r=A.r(t.P),q,p,o,n,m
 var $async$jp=A.n(function(c,d){if(c===1)return A.o(d,r)
-for(;;)switch(s){case 0:p=A.cn("http://192.168.29.146:8000"+a,0,null)
+for(;;)switch(s){case 0:p=A.cn("https://sevenxt.in/api"+a,0,null)
 s=3
 return A.j(A.hp(),$async$jp)
 case 3:o=d
@@ -31263,7 +31263,7 @@ case 1:return A.p(q,r)}})
 return A.q($async$jp,r)},
 Eh(a,b,c){var s=0,r=A.r(t.P),q,p,o,n
 var $async$Eh=A.n(function(d,e){if(d===1)return A.o(e,r)
-for(;;)switch(s){case 0:p=A.b4N("POST",A.cn("http://192.168.29.146:8000"+a,0,null))
+for(;;)switch(s){case 0:p=A.b4N("POST",A.cn("https://sevenxt.in/api"+a,0,null))
 o=p.r
 s=3
 return A.j(A.hp(),$async$Eh)
@@ -31285,7 +31285,7 @@ q4(a){var s=0,r=A.r(t.P),q,p,o,n
 var $async$q4=A.n(function(b,c){if(b===1)return A.o(c,r)
 for(;;)switch(s){case 0:p=A
 o=A
-n=A.cn("http://192.168.29.146:8000"+a,0,null)
+n=A.cn("https://sevenxt.in/api"+a,0,null)
 s=4
 return A.j(A.hp(),$async$q4)
 case 4:s=3
@@ -31299,7 +31299,7 @@ l7(){var s=0,r=A.r(t.P),q,p=2,o=[],n,m,l,k,j,i
 var $async$l7=A.n(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:p=4
 j=A
-i=A.cn("http://192.168.29.146:8000/users/me",0,null)
+i=A.cn("https://sevenxt.in/api/users/me",0,null)
 s=8
 return A.j(A.hp(),$async$l7)
 case 8:s=7
@@ -31327,7 +31327,7 @@ Ei(a,b){return A.beZ(a,b)},
 beZ(a,b){var s=0,r=A.r(t.P),q,p=2,o=[],n,m,l,k,j,i
 var $async$Ei=A.n(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
-m=A.cn("http://192.168.29.146:8000"+a,0,null)
+m=A.cn("https://sevenxt.in/api"+a,0,null)
 s=7
 return A.j(A.hp(),$async$Ei)
 case 7:l=d
@@ -31359,7 +31359,7 @@ beW(a){var s=0,r=A.r(t.P),q,p=2,o=[],n,m,l,k,j,i
 var $async$Ef=A.n(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 j=A
-i=A.cn("http://192.168.29.146:8000"+a,0,null)
+i=A.cn("https://sevenxt.in/api"+a,0,null)
 s=8
 return A.j(A.hp(),$async$Ef)
 case 8:s=7
@@ -31398,7 +31398,7 @@ break
 case 9:c=k
 case 8:n=c
 if(J.bj(n)===0){j=A.bP("No authentication token found for placing order.")
-throw A.f(j)}j=A.cn("http://192.168.29.146:8000/orders/place",0,null)
+throw A.f(j)}j=A.cn("https://sevenxt.in/api/orders/place",0,null)
 i=t.N
 i=A.a_(["Content-Type","application/json","Authorization","Bearer "+A.h($.fI)],i,i)
 s=11
@@ -31444,7 +31444,7 @@ var $async$Ee=A.n(function(c,d){if(c===1)return A.o(d,r)
 for(;;)switch(s){case 0:m=A.a6(a).h("af<1,aX<i,cG>>")
 m=A.a1(new A.af(a,new A.aej(),m),m.h("an.E"))
 p=A.a_(["delivery_pincode",b,"items",m],t.N,t.K)
-m=A.cn("http://192.168.29.146:8000/shipping/delhivery/estimate",0,null)
+m=A.cn("https://sevenxt.in/api/shipping/delhivery/estimate",0,null)
 s=3
 return A.j(A.hp(),$async$Ee)
 case 3:o=d
@@ -31462,7 +31462,7 @@ var $async$Sl=A.n(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 A.av("ApiService: Fetching orders for user: "+a)
 i=A
-h=A.cn("http://192.168.29.146:8000/orders/user/"+a,0,null)
+h=A.cn("https://sevenxt.in/api/orders/user/"+a,0,null)
 s=8
 return A.j(A.hp(),$async$Sl)
 case 8:s=7
@@ -31502,7 +31502,7 @@ case 9:c=k
 case 8:n=c
 j=t.N
 s=11
-return A.j(A.tG(A.cn("http://192.168.29.146:8000/orders/"+a+"/cancel",0,null),null,A.a_(["Content-Type","application/json","Authorization","Bearer "+A.h(n)],j,j)),$async$Sh)
+return A.j(A.tG(A.cn("https://sevenxt.in/api/orders/"+a+"/cancel",0,null),null,A.a_(["Content-Type","application/json","Authorization","Bearer "+A.h(n)],j,j)),$async$Sh)
 case 11:m=c
 j=A.Sg(m)
 q=j
@@ -31580,7 +31580,7 @@ A.av("razorpayOrderId: "+b)
 A.av("razorpayPaymentId: "+c)
 A.av("razorpaySignature: "+d)
 A.av("orderId: "+a)
-i=A.cn("http://192.168.29.146:8000/payment/verify",0,null)
+i=A.cn("https://sevenxt.in/api/payment/verify",0,null)
 h=t.N
 g=A.a_(["Content-Type","application/json","Authorization","Bearer "+A.h(n)],h,h)
 s=8
@@ -31620,7 +31620,7 @@ for(;;)switch(s){case 0:s=2
 return A.j(A.nS(),$async$yi)
 case 2:c=b1
 b=a9===B.cY
-a=A.b4N("POST",A.cn(b?"http://192.168.29.146:8000/returns/exchange":"http://192.168.29.146:8000/returns/refund",0,null))
+a=A.b4N("POST",A.cn(b?"https://sevenxt.in/api/returns/exchange":"https://sevenxt.in/api/returns/refund",0,null))
 a.r.m(0,"Authorization","Bearer "+c)
 q=a.x
 q.m(0,"order_id",a5.a)
@@ -31671,7 +31671,7 @@ return A.j(A.nS(),$async$Sj)
 case 3:p=c
 o=t.N
 s=4
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/exchanges/order/"+a,0,null),A.a_(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o)),$async$Sj)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/exchanges/order/"+a,0,null),A.a_(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o)),$async$Sj)
 case 4:n=c
 if(n.b===200){q=B.a3.be(0,A.dv(A.du(n.e)).be(0,n.w))
 s=1
@@ -31685,7 +31685,7 @@ return A.j(A.nS(),$async$Sk)
 case 3:p=c
 o=t.N
 s=4
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/returns/order/"+a,0,null),A.a_(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o)),$async$Sk)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/returns/order/"+a,0,null),A.a_(["Authorization","Bearer "+p,"Content-Type","application/json"],o,o)),$async$Sk)
 case 4:n=c
 if(n.b===200){q=B.a3.be(0,A.dv(A.du(n.e)).be(0,n.w))
 s=1
@@ -31709,7 +31709,7 @@ return A.j(A.nS(),$async$Si)
 case 7:n=b
 i=t.N
 s=8
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/coupons/available",0,null),A.a_(["Authorization","Bearer "+A.h(n),"Content-Type","application/json"],i,i)),$async$Si)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/coupons/available",0,null),A.a_(["Authorization","Bearer "+A.h(n),"Content-Type","application/json"],i,i)),$async$Si)
 case 8:m=b
 A.av("Fetch coupons response status: "+m.b)
 i=m
@@ -31742,7 +31742,7 @@ aem(){var s=0,r=A.r(t.GU),q,p,o,n,m,l,k,j,i,h
 var $async$aem=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:j=t.N
 s=3
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/category-banners",0,null),A.a_(["Authorization","Bearer "+A.h($.fI)],j,j)),$async$aem)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/category-banners",0,null),A.a_(["Authorization","Bearer "+A.h($.fI)],j,j)),$async$aem)
 case 3:i=b
 h=i.b
 A.av("Category banners response: "+h)
@@ -31764,7 +31764,7 @@ aep(){var s=0,r=A.r(t.b5),q,p,o,n,m,l,k,j
 var $async$aep=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:k=t.N
 s=3
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/hero-banners",0,null),A.a_(["Authorization","Bearer "+A.h($.fI),"Content-Type","application/json"],k,k)),$async$aep)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/hero-banners",0,null),A.a_(["Authorization","Bearer "+A.h($.fI),"Content-Type","application/json"],k,k)),$async$aep)
 case 3:j=b
 k=j.b
 p=""+k
@@ -31796,7 +31796,7 @@ q5(){var s=0,r=A.r(t.GU),q,p,o,n,m,l,k,j,i
 var $async$q5=A.n(function(a,b){if(a===1)return A.o(b,r)
 for(;;)switch(s){case 0:k=t.N
 s=3
-return A.j(A.k6(A.cn("http://192.168.29.146:8000/cms-pages",0,null),A.a_(["Authorization","Bearer "+A.h($.fI),"Content-Type","application/json"],k,k)),$async$q5)
+return A.j(A.k6(A.cn("https://sevenxt.in/api/cms-pages",0,null),A.a_(["Authorization","Bearer "+A.h($.fI),"Content-Type","application/json"],k,k)),$async$q5)
 case 3:j=b
 i=j.b
 if(i===200){p=J.ae(B.a3.iM(0,A.dv(A.du(j.e)).be(0,j.w),null),"data")
@@ -108577,7 +108577,7 @@ if(a0!=null&&B.c.gbz(a0))J.cX(m,"query",a0)
 if(b!=null)J.cX(m,"min_price",B.d.k(b))
 if(c!=null)J.cX(m,"max_price",B.d.k(c))
 l=m
-k=A.cn("http://192.168.29.146:8000/products",0,null).a6B(0,l)
+k=A.cn("https://sevenxt.in/api/products",0,null).a6B(0,l)
 a3=A
 a4=k
 s=8
@@ -108616,7 +108616,7 @@ var $async$t2=A.n(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
 n=b
 g=A
-f=A.cn("http://192.168.29.146:8000/products/"+a+"?user_type="+A.h(n),0,null)
+f=A.cn("https://sevenxt.in/api/products/"+a+"?user_type="+A.h(n),0,null)
 s=8
 return A.j(A.hp(),$async$t2)
 case 8:s=7
@@ -108659,7 +108659,7 @@ break
 case 9:a0=b
 case 8:n=a0
 e=A
-d=A.cn("http://192.168.29.146:8000/products/search?query="+A.Qt(2,a,B.an,!1)+"&limit="+A.h(g)+"&user_type="+A.h(n),0,null)
+d=A.cn("https://sevenxt.in/api/products/search?query="+A.Qt(2,a,B.an,!1)+"&limit="+A.h(g)+"&user_type="+A.h(n),0,null)
 s=12
 return A.j(A.hp(),$async$t9)
 case 12:s=11
@@ -108696,7 +108696,7 @@ n=A.A(t.N,t.K)
 J.cX(n,"rating",b)
 if(c.length!==0)J.cX(n,"comment",c)
 m=n
-n=A.cn("http://192.168.29.146:8000/products/"+a+"/review",0,null)
+n=A.cn("https://sevenxt.in/api/products/"+a+"/review",0,null)
 s=7
 return A.j(A.hp(),$async$yi)
 case 7:j=e
@@ -108731,7 +108731,7 @@ o=A.A(t.N,t.K)
 J.cX(o,"rating",b)
 if(c.length!==0)J.cX(o,"comment",c)
 n=o
-o=A.cn("http://192.168.29.146:8000/reviews/"+a,0,null)
+o=A.cn("https://sevenxt.in/api/reviews/"+a,0,null)
 s=6
 return A.j(A.hp(),$async$AL)
 case 6:k=e
@@ -108759,7 +108759,7 @@ aBq(a){var s=0,r=A.r(t.H),q=1,p=[],o,n,m,l,k,j,i
 var $async$yY=A.n(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:q=3
 j=A
-i=A.cn("http://192.168.29.146:8000/reviews/"+a,0,null)
+i=A.cn("https://sevenxt.in/api/reviews/"+a,0,null)
 s=7
 return A.j(A.hp(),$async$yY)
 case 7:s=6
@@ -108788,7 +108788,7 @@ var $async$t3=A.n(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:j=0
 p=4
 h=A
-g=A.cn("http://192.168.29.146:8000/products/"+a+"/reviews?limit="+b+"&offset="+A.h(j),0,null)
+g=A.cn("https://sevenxt.in/api/products/"+a+"/reviews?limit="+b+"&offset="+A.h(j),0,null)
 s=8
 return A.j(A.hp(),$async$t3)
 case 8:s=7
@@ -112546,7 +112546,7 @@ s=p}for(;;)switch(s){case 0:if(m.ax==null){s=1
 break}m.G(new A.aMP(m))
 p=4
 l=m.wG()
-h=A.cn("http://192.168.29.146:8000/coupons/apply",0,null)
+h=A.cn("https://sevenxt.in/api/coupons/apply",0,null)
 g=t.N
 f=A.a_(["Authorization","Bearer "+A.h(t.C.a($.cW().cm("auth",!1,t.z)).dD(0,"token")),"Content-Type","application/json"],g,g)
 s=7
@@ -112612,7 +112612,7 @@ if(n==null)n=0
 h=p.ay
 if(h==null)h=0
 m=p.x
-l=A.cn("http://192.168.29.146:8000/payment/create-for-order/"+a,0,null)
+l=A.cn("https://sevenxt.in/api/payment/create-for-order/"+a,0,null)
 k=t.N
 j=A.a_(["Authorization","Bearer "+A.h(t.C.a($.cW().cm("auth",!1,t.z)).dD(0,"token")),"Content-Type","application/json"],k,k)
 s=3
@@ -112711,7 +112711,7 @@ f=t.C
 e=f.a(h.cm("auth",!1,g)).dD(0,"user_phone")
 if(e==null){s=1
 break}p=4
-k=A.cn("http://192.168.29.146:8000/orders/send-otp",0,null)
+k=A.cn("https://sevenxt.in/api/orders/send-otp",0,null)
 j=t.N
 h=A.a_(["Authorization","Bearer "+A.h(f.a(h.cm("auth",!1,g)).dD(0,"token")),"Content-Type","application/json"],j,j)
 s=7
